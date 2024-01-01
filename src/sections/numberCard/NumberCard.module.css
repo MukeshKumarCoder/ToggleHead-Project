@@ -1,0 +1,57 @@
+.numberCardBox {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.5rem 5rem;
+    margin: 1rem auto;
+    background-color: #f6f6f6;
+}
+
+.numberCard {
+    width: 230px;
+    height: 250px;
+    color: #103962;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.numberCard>h3 {
+    font-size: 0.8rem;
+}
+
+.numberCard>h2 {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    line-height: 3rem;
+}
+
+.numberCard>p {
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .numberCardBox {
+        padding: 1rem 2rem;
+        justify-content: space-between;
+    }    
+}
+
+
+@media screen and (max-width: 768px) {
+    .numberCardBox {
+        padding: 1rem;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .numberCardBox {
+        padding: 1rem;
+        justify-content: center;
+    }
+}

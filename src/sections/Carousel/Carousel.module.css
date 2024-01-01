@@ -1,0 +1,81 @@
+.swiper {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .carouselBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+
+  .carouselLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+    padding: 0 5rem;
+    color: #103962;
+  }
+
+  .btn{
+    background-color: #103962;
+    color: #fff;
+    border: 1px solid #103962;
+    transition: all 0.3s ease-in;
+  }
+  .btn:hover{
+    background-color: #fff;
+    color: #103962;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .carousleRight > img{
+      width: 450px;
+    }
+    .carouselLeft{
+      padding: 0 4rem;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .carousleRight > img{
+      width: 350px;
+    }
+    .carouselLeft{
+      padding: 0 2rem;
+      row-gap: 0.5rem;
+    }
+    .carouselLeft >p{
+      font-size: 0.8rem;
+    }
+
+  }
+  
+  
+  @media screen and (max-width: 576px) {
+      .carouselLeft > p{
+        display: none;
+      }
+      .carouselLeft{
+        padding: 1rem;
+      }
+
+      .carousleRight >img{
+        width: 200px;
+      }
+  
+  }

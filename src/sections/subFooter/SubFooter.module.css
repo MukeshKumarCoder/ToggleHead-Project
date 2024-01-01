@@ -1,0 +1,32 @@
+.subFooterBox{
+    width: 100vw;
+    padding: 1rem 0;
+    background-color: #103962;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .subFooterBox{
+        padding: 0.8rem;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .subFooterBox{
+        padding: 0.5rem;
+    }
+ .subFooterBox > p{
+    font-size: 0.6rem;
+ }
+}

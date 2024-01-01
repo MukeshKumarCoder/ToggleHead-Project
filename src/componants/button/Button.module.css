@@ -1,0 +1,27 @@
+button{
+    padding: 0.5rem 1rem;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+
+@media screen and (max-width: 1024px) {
+    button{
+        padding: 0.5rem 0.8rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+
+}
+
+
+@media screen and (max-width: 576px) {
+ 
+}

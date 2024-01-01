@@ -1,0 +1,49 @@
+.questionBox{
+    width: 90vw;
+    padding: 1rem 15rem;
+}
+.qBox{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+}
+.answerBox{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .questionBox{
+        width: 100vw;
+        padding: 1rem 10rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .questionBox{
+        padding: 1rem 5rem;
+    }
+    .answerBox >h3{
+        font-size: 1rem;
+    }
+    .ans{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .questionBox{
+        padding: 1rem;
+    }
+    .answerBox >h3{
+        font-size: 0.7rem;
+    }
+    .ans{
+        font-size: 0.6rem;
+    }
+}
